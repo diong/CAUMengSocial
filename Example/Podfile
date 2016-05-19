@@ -1,14 +1,14 @@
-use_frameworks!
+#use_frameworks!
 
 target 'CAUMengSocial_Example' do
-  pod 'CAUMengSocial', :path => '../'
+    pod 'CAUMengSocial', :path => '../'
 
-  target 'CAUMengSocial_Tests' do
-    inherit! :search_paths
-
-    pod 'Specta'
-  pod 'Expecta'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
-  end
+#  target 'CAUMengSocial_Tests' do
+#    inherit! :search_paths
+#
+#    pod 'Specta'
+#  pod 'Expecta'
+#  pod 'FBSnapshotTestCase'
+#  pod 'Expecta+Snapshots'
+#  end
 end
