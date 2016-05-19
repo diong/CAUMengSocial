@@ -25,60 +25,60 @@ s.homepage         = "http://dev.umeng.com/social/ios/quick-integration"
 # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 s.license          = 'MIT'
 s.author           = { "wuzx" => "wuzx@feiyu.com" }
- s.source           = { :git => "https://github.com/diong/CAUMengSocial.git", :tag => s.version.to_s }
+# s.source           = { :git => "https://github.com/diong/CAUMengSocial.git", :tag => s.version.to_s }
 # s.source           = { :http => "http://dev.umeng.com/files/download/Umeng_SDK_Social_iOS_ARM64_5.1.zip" }
-# s.source           = { :git => "/Users/wuzhx/sourcetree/CAUMengSocial" }
+ s.source           = { :git => "/Users/wuzhx/sourcetree/CAUMengSocial" }
 
 s.ios.deployment_target = '7.0'
 s.platform = :ios, '5.0'
 s.requires_arc        = false
 
 s.source_files =
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/*.h",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Wechat/*.h",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/*.h",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/*.h",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/*.h",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Instagram/*.h",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Line/*.h",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Whatsapp/*.h",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Tumblr/*.h",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/*.h",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/*.h",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Twitter/*.h"
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/*.h",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Wechat/*.h",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/*.h",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/*.h",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/*.h",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Instagram/*.h",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Line/*.h",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Whatsapp/*.h",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Tumblr/*.h",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/*.h",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/*.h",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Twitter/*.h"
 
 s.resources =
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/UMSocialSDKResourcesNew.bundle",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/*.xib",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/{en,zh-Hans}.lproj"
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/UMSocialSDKResourcesNew.bundle",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/*.xib",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/{en,zh-Hans}.lproj"
 
 s.preserve_paths =
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/libUMSocial_Sdk_5.1.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/libUMSocial_Sdk_Comment_5.1.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Wechat/libSocialWechat.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Wechat/libWeChatSDK.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/libSocialQQ.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenAPI.framework",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/libSocialSinaSSO.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/libWeiboSDK.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/libAPOpenSdk.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/libSocialAlipayShare.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Instagram/libSocialInstagram.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Line/libSocialLine.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Whatsapp/libSocialWhatsapp.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Tumblr/libSocialTumblr.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/libSocialLaiWang.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/libLWApiSDK.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/libSocialFacebook.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/FBSDKCoreKit.framework",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/FBSDKLoginKit.framework",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/FBSDKShareKit.framework",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Twitter/libSocialTwitter.a",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Twitter/Fabric.framework",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Twitter/TwitterCore.framework",
-"CAUMengSocial/Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Twitter/TwitterKit.framework"
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/libUMSocial_Sdk_5.1.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/libUMSocial_Sdk_Comment_5.1.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Wechat/libSocialWechat.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Wechat/libWeChatSDK.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/libSocialQQ.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenAPI.framework",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/libSocialSinaSSO.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/libWeiboSDK.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/libAPOpenSdk.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/libSocialAlipayShare.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Instagram/libSocialInstagram.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Line/libSocialLine.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Whatsapp/libSocialWhatsapp.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Tumblr/libSocialTumblr.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/libSocialLaiWang.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/libLWApiSDK.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/libSocialFacebook.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/FBSDKCoreKit.framework",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/FBSDKLoginKit.framework",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/FBSDKShareKit.framework",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Twitter/libSocialTwitter.a",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Twitter/Fabric.framework",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Twitter/TwitterCore.framework",
+"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Twitter/TwitterKit.framework"
 
 s.libraries =
 "UMSocial_Sdk_5.1",
