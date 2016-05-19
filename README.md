@@ -27,3 +27,4 @@ wuzx, wuzx@feiyu.com
 ## License
 
 CAUMengSocial is available under the MIT license. See the LICENSE file for more info.
+友盟分享SDK
