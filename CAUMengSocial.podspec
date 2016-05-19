@@ -25,9 +25,9 @@ s.homepage         = "http://dev.umeng.com/social/ios/quick-integration"
 # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 s.license          = 'MIT'
 s.author           = { "wuzx" => "wuzx@feiyu.com" }
-# s.source           = { :git => "https://github.com/diong/CAUMengSocial.git", :tag => s.version.to_s }
+ s.source           = { :git => "https://github.com/diong/CAUMengSocial.git", :tag => s.version.to_s }
 # s.source           = { :http => "http://dev.umeng.com/files/download/Umeng_SDK_Social_iOS_ARM64_5.1.zip" }
- s.source           = { :git => "/Users/wuzhx/sourcetree/CAUMengSocial" }
+# s.source           = { :git => "/Users/wuzhx/sourcetree/CAUMengSocial" }
 
 s.ios.deployment_target = '7.0'
 s.platform = :ios, '5.0'
