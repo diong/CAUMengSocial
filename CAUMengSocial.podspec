@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "CAUMengSocial"
-s.version          = "5.1.0"
+s.version          = "5.1.0.1"
 s.summary          = "UMengSocial 友盟的分享SDK"
 
 # This description is used to generate tags and improve search results.
