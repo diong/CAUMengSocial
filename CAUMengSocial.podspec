@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "CAUMengSocial"
-s.version          = "5.1.0.2"
+s.version          = "5.1.0.5"
 s.summary          = "UMengSocial 友盟的分享SDK"
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,6 @@ s.author           = { "wuzx" => "wuzx@feiyu.com" }
  s.source           = { :http => "http://dev.umeng.com/files/download/Umeng_SDK_Social_iOS_ARM64_5.1.zip" }
 # s.source           = { :git => "/Users/wuzhx/sourcetree/CAUMengSocial" }
 
-s.ios.deployment_target = '7.0'
 s.platform = :ios, '5.0'
 s.requires_arc        = false
 
@@ -45,7 +44,6 @@ s.source_files =
 "Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Tumblr/*.h",
 "Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/*.h",
 "Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/*.h",
-"Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/FBSDKCoreKit.framework/Headers/*.h",
 "Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Twitter/*.h"
 
 s.resources =
