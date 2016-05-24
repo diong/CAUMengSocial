@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "CAUMengSocial"
-s.version          = "5.2.0"
+s.version          = "5.2.0.1"
 s.summary          = "UMengSocial 友盟的分享SDK"
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ s.homepage         = "http://dev.umeng.com/social/ios/quick-integration"
 s.license  = { :type => 'Copyright', :text => 'Copyright 2011 - 2016 UMeng.com. All rights reserved.\n' }
 s.author           = { "wuzx" => "wuzx@feiyu.com" }
 # s.source           = { :git => "https://github.com/diong/CAUMengSocial.git", :tag => s.version.to_s }
- s.source           = { :http => "http://wuzhx.qiniudn.com/Umeng_SDK_Social_iOS_ARM64_5.2.zip" }
+ s.source           = { :http => "http://dev.umeng.com/files/download/Umeng_SDK_Social_iOS_ARM64_5.2.zip" }
 # s.source           = { :git => "/Users/wuzhx/sourcetree/CAUMengSocial" }
 
 s.platform = :ios, '5.0'
